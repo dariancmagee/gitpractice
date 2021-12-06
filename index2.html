@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tick-Tac-Toe Board</title>
+    <style>
+        .board {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            background-color: lightgreen;
+            grid-template-rows: auto auto auto;
+            height: 165px;
+            width: 165px;
+            text-align: center;
+        
+        }
+
+        .item {
+            font-size: 20px;
+            height: 50px;
+            width: 50px;
+            border: solid black;
+            
+        }
+
+        .item:nth-child(odd) {
+            background-color: orange;
+        }
+    
+    </style>
+</head>
+    <body>
+        <h1>Tick-Tac-Toe</h1>
+        <div class="board">
+            <div class="item">o</div>
+            <div class="item">x</div>
+            <div class="item">o</div>
+            <div class="item">x</div>
+            <div class="item">o</div>
+            <div class="item">x</div>
+            <div class="item">o</div>
+            <div class="item">x</div>
+            <div class="item">o</div>
+        </div>
+
+    </body>
+</html>
